@@ -1,0 +1,20 @@
+---
+layout: "default"
+---
+<h1>AKWI</h1>
+<h2>Hochschulen</h2>
+<ul>
+  {% capture collegeOrUniversities_query %}
+    SELECT
+      ?collegeOrUniversity
+    WHERE {
+      ?collegeOrUniversity a schema:CollegeOrUniversity.
+    }
+  {% endcapture %}
+  {% assign collegeOrUniversities = collegeOrUniversities_query | sparql_query %}
+  {% for row in collegeOrUniversities %}
+    <li>
+      <a href="{{ row.collegeOrUniversity.page_url }}">{{ row.collegeOrUniversity | rdf_property: "schema:legalName" }}</a>
+    </li>
+  {% endfor %}
+</ul>
