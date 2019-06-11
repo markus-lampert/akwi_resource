@@ -1,0 +1,9 @@
+
+.horizontal_box{
+  float: left;
+  padding: 20px;
+}
+.stop_float{
+  clear: both;
+  padding: 20px;
+}

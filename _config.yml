@@ -1,5 +1,5 @@
-url: "http://example.org" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/akwi" # the subpath of your site, e.g. /blog
 
 plugins:
   - jekyll-rdf
@@ -11,3 +11,4 @@ jekyll_rdf:
   class_template_mappings:
     "https://schema.org/CollegeOrUniversity": "collegeOrUniversity"
     "https://schema.org/Person": "person"
+    "https://schema.org/Course": "course"

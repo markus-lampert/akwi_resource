@@ -1,4 +1,68 @@
 ---
 layout: "default"
 ---
-cu
+{% include navigation.html %}
+<h1>{{ page.rdf | rdf_property: "schema:legalName" }}</h1>
+<div class="horizontal_box">
+<h2> Studiengänge </h2>
+{% capture courses_query %}
+  Select
+	?course
+  Where{
+    ?resourceUri a schema:CollegeOrUniversity;
+                   schema:department ?departmentOrFaculty.
+    ?departmentOrFaculty ^schema:provider ?course.
+  }
+  ORDER BY ?course
+{% endcapture %}
+{% assign result_set = page.rdf | sparql_query: courses_query %}
+  <ul>
+  {% for row in result_set %}
+    <li>
+      <a href="/akwi{{ row.course.page_url }}">
+      {{ row.course | rdf_property: "schema:name" }}
+      {{ row.course | rdf_property: "schema:educationalAlignment" | rdf_property: "schema:targetName"}}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="horizontal_box">
+<h2> Professoren </h2>
+{% capture collegeOrUniversities_query %}
+  Select
+    ?employee
+  Where{
+    ?resourceUri a schema:CollegeOrUniversity;
+                 schema:department ?departmentOrFaculty.
+    ?departmentOrFaculty schema:employee ?employee.
+  }
+  ORDER BY ?employee
+{% endcapture %}
+{% assign result_set = page.rdf | sparql_query: collegeOrUniversities_query %}
+  <ul>
+  {% for row in result_set %}
+    <li>
+      <a href="/akwi{{ row.employee.page_url }}">
+        {{ row.employee | rdf_property: "schema:honorificPrefix" }}
+        {{ row.employee | rdf_property: "schema:familyName" }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="stop_float">
+<h2>Adresse</h2>
+<table>
+  {% assign website = page.rdf | rdf_property: "schema:url" %}
+  <tr><td>Website</td><td><a href="/akwi{{ website }}" >{{ website }}</a></td></tr>
+  <tr><td></td></tr>
+  <tr><td>Anschrift</td></tr>
+  {% assign postalAddress = page.rdf | rdf_property: "schema:address" %}
+  <tr><td>Str. Hs.-Nr.</td><td>{{ postalAddress | rdf_property: "schema:streetAddress" }}</td></tr>
+  <tr><td>PLZ</td><td>{{ postalAddress | rdf_property: "schema:postalCode" }}</td></tr>
+  <tr><td>Ort</td><td>{{ postalAddress | rdf_property: "schema:addressLocality" }}</td></tr>
+  <tr><td>Bundesland</td><td>{{ postalAddress | rdf_property: "schema:addressRegion" }}</td></tr>
+  <tr><td>Land</td><td>{{ postalAddress | rdf_property: "schema:addressCountry" }}</td></tr>
+</table>
+</div>

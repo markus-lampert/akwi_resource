@@ -10,11 +10,12 @@ layout: "default"
     WHERE {
       ?collegeOrUniversity a schema:CollegeOrUniversity.
     }
+    ORDER BY ?collegeOrUniversity
   {% endcapture %}
   {% assign collegeOrUniversities = collegeOrUniversities_query | sparql_query %}
   {% for row in collegeOrUniversities %}
     <li>
-      <a href="{{ row.collegeOrUniversity.page_url }}">{{ row.collegeOrUniversity | rdf_property: "schema:legalName" }}</a>
+      <a href="/akwi{{ row.collegeOrUniversity.page_url }}">{{ row.collegeOrUniversity | rdf_property: "schema:legalName" }}</a>
     </li>
   {% endfor %}
 </ul>
