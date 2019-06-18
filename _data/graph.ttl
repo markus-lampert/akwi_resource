@@ -96,20 +96,12 @@ akwi:BHT_Berlin_WuGW_Ba_BWLDW a schema:Course ;
                               rdfs:label "BHT_Berlin_WuGW_Ba_BWLDW" ;
                               schema:name "Betriebswirtschaftslehre - Digitale Wirtschaft" ;
                               schema:educationalAlignment akwi:Ba ;
-                              #<!---added example
-                              akwi:totalEnrollments 1000;
-							  akwi:newEnrollments 100;
-                              #--->
                               schema:provider akwi:BHT_Berlin_WuGW .
 
 akwi:BHT_Berlin_WuGW_Ba_WI a schema:Course ;
                            rdfs:label "BHT_Berlin_WuGW_Ba_WI" ;
                            schema:name "Wirtschaftsinformatik" ;
                            schema:educationalAlignment akwi:Ba ;
-                           #<!---added example
-                           akwi:totalEnrollments 2000;
-						   akwi:newEnrollments 200;
-                           #--->
                            schema:provider akwi:BHT_Berlin_WuGW .
 
 akwi:Ba a schema:AlignmentObject ;
