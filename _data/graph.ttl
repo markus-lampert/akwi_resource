@@ -4288,6 +4288,126 @@ akwi:HSM_Stuttgart_IuK_Ma_WI akwi:newEnrollments 24 .
 akwi:HS_AlbstadtSigmaringen_I_Ba_WI akwi:totalEnrollments 259 .
 akwi:HS_AlbstadtSigmaringen_I_Ba_WI akwi:newEnrollments 113 .
 
+akwi:HS_AlbstadtSigmaringen_I_Ma_BAn akwi:totalEnrollments 21.
+akwi:HS_AlbstadtSigmaringen_I_Ma_BAn akwi:newEnrollments "n.a.".
+
+akwi:HS_Anhalt_IuS_Ba_AI akwi:totalEnrollments "n.a.".
+akwi:HS_Anhalt_IuS_Ba_AI akwi:newEnrollments "n.a.".
+
+akwi:HS_Anhalt_IuS_Ma_IM akwi:totalEnrollments "n.a.".
+akwi:HS_Anhalt_IuS_Ma_IM akwi:newEnrollments "n.a.".
+
+akwi:HS_Ansbach_W_Ba_WI akwi:totalEnrollments 240.
+akwi:HS_Ansbach_W_Ba_WI akwi:newEnrollments 89.
+
+akwi:HS_Aschaffenburg_WuR_Ba_BWR akwi:totalEnrollments "n.a.".
+akwi:HS_Aschaffenburg_WuR_Ba_BWR akwi:newEnrollments "n.a.".
+
+akwi:HS_Aschaffenburg_WuR_Ma_WuR akwi:totalEnrollments "n.a.".
+akwi:HS_Aschaffenburg_WuR_Ma_WuR akwi:newEnrollments "n.a.".
+
+akwi:HS_Augsburg_I_Ba_WI akwi:totalEnrollments 305.
+akwi:HS_Augsburg_I_Ba_WI akwi:newEnrollments 90.
+
+akwi:HS_Augsburg_I_Ma_BIS akwi:totalEnrollments 64.
+akwi:HS_Augsburg_I_Ma_BIS akwi:newEnrollments 39.
+
+akwi:HS_BonnRheinSieg_I_Ba_WI akwi:totalEnrollments 500.
+akwi:HS_BonnRheinSieg_I_Ba_WI akwi:newEnrollments 122.
+
+akwi:HS_Bremerhaven_MuIS_Ba_WI akwi:totalEnrollments 175.
+akwi:HS_Bremerhaven_MuIS_Ba_WI akwi:newEnrollments 58.
+
+akwi:HS_Bremerhaven_MuIS_Ma_DIIM akwi:totalEnrollments "n.a.".
+akwi:HS_Bremerhaven_MuIS_Ma_DIIM akwi:newEnrollments "n.a.".
+
+akwi:HS_Darmstadt_I_Ba_Inf akwi:totalEnrollments "n.a.".
+akwi:HS_Darmstadt_I_Ba_Inf akwi:newEnrollments "n.a.".
+
+akwi:HS_Darmstadt_I_Ma_Inf akwi:totalEnrollments "n.a.".
+akwi:HS_Darmstadt_I_Ma_Inf akwi:newEnrollments "n.a.".
+
+akwi:HS_Darmstadt_W_Ba_BWL akwi:totalEnrollments "n.a.".
+akwi:HS_Darmstadt_W_Ba_BWL akwi:newEnrollments "n.a.".
+
+akwi:HS_Darmstadt_W_Ma_BWL akwi:totalEnrollments "n.a.".
+akwi:HS_Darmstadt_W_Ma_BWL akwi:newEnrollments "n.a.".
+
+akwi:HS_Deggendorf_AWW_Ba_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Deggendorf_AWW_Ba_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_Deggendorf_AWW_Ma_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Deggendorf_AWW_Ma_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_EmdenLeer_W_Ba_WI akwi:totalEnrollments 45.
+akwi:HS_EmdenLeer_W_Ba_WI akwi:newEnrollments 30.
+
+akwi:HS_Esslingen_IT_Ba_WI akwi:totalEnrollments 235.
+akwi:HS_Esslingen_IT_Ba_WI akwi:newEnrollments 74.
+
+akwi:HS_Flensburg_W_Ba_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Flensburg_W_Ba_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_Flensburg_W_Ma_BM akwi:totalEnrollments "n.a.".
+akwi:HS_Flensburg_W_Ma_BM akwi:newEnrollments "n.a.".
+
+akwi:HS_Fulda_AI_Ba_WI akwi:totalEnrollments 306.
+akwi:HS_Fulda_AI_Ba_WI akwi:newEnrollments 70.
+
+akwi:HS_Fulda_AI_Ma_AI akwi:totalEnrollments "n.a.".
+akwi:HS_Fulda_AI_Ma_AI akwi:newEnrollments "n.a.".
+
+akwi:HS_Furtwangen_WI_Ba_WI akwi:totalEnrollments 290.
+akwi:HS_Furtwangen_WI_Ba_WI akwi:newEnrollments 95.
+
+akwi:HS_Furtwangen_WI_Ba_WNeB akwi:totalEnrollments 262.
+akwi:HS_Furtwangen_WI_Ba_WNeB akwi:newEnrollments 73.
+
+akwi:HS_Furtwangen_WI_Ma_AA akwi:totalEnrollments 28.
+akwi:HS_Furtwangen_WI_Ma_AA akwi:newEnrollments 16.
+
+akwi:HS_Furtwangen_WI_Ma_BC akwi:totalEnrollments 52.
+akwi:HS_Furtwangen_WI_Ma_BC akwi:newEnrollments 28.
+
+akwi:HS_Hannover_WuI_Ba_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Hannover_WuI_Ba_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_Hannover_WuI_Ma_AI akwi:totalEnrollments "n.a.".
+akwi:HS_Hannover_WuI_Ma_AI akwi:newEnrollments "n.a.".
+
+akwi:HS_Hannover_WuI_Ma_DT akwi:totalEnrollments "n.a.".
+akwi:HS_Hannover_WuI_Ma_DT akwi:newEnrollments "n.a.".
+
+akwi:HS_Harz_AuI_Ba_WI akwi:totalEnrollments 51.
+akwi:HS_Harz_AuI_Ba_WI akwi:newEnrollments 14.
+
+akwi:HS_Hof_I_Ba_WI akwi:totalEnrollments 89.
+akwi:HS_Hof_I_Ba_WI akwi:newEnrollments 52.
+
+akwi:HS_Kaiserslautern_BW_Ba_IM akwi:totalEnrollments "n.a.".
+akwi:HS_Kaiserslautern_BW_Ba_IM akwi:newEnrollments "n.a.".
+
+akwi:HS_Kaiserslautern_BW_Ma_IM akwi:totalEnrollments "n.a.".
+akwi:HS_Kaiserslautern_BW_Ma_IM akwi:newEnrollments "n.a.".
+
+akwi:HS_Karlsruhe_IuWI_Ba_WI akwi:totalEnrollments 561.
+akwi:HS_Karlsruhe_IuWI_Ba_WI akwi:newEnrollments 144.
+
+akwi:HS_Karlsruhe_IuWI_Ma_WI akwi:totalEnrollments 99.
+akwi:HS_Karlsruhe_IuWI_Ma_WI akwi:newEnrollments 45.
+
+akwi:HS_Konstanz_I_Ba_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Konstanz_I_Ba_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_Konstanz_I_Ma_BIT akwi:totalEnrollments "n.a.".
+akwi:HS_Konstanz_I_Ma_BIT akwi:newEnrollments "n.a.".
+
+akwi:HS_Landshut_I_Ba_WI akwi:totalEnrollments "n.a.".
+akwi:HS_Landshut_I_Ba_WI akwi:newEnrollments "n.a.".
+
+akwi:HS_Landshut_I_Ma_Inf akwi:totalEnrollments "n.a.".
+akwi:HS_Landshut_I_Ma_Inf akwi:newEnrollments "n.a.".
+
 akwi:HS_Osnabrueck_WuSW_Ba_WI akwi:totalEnrollments 26 .	
 akwi:HS_Osnabrueck_WuSW_Ba_WI akwi:newEnrollments 15 .
 
