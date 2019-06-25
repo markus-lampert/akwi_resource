@@ -2,12 +2,20 @@
 layout: "default"
 ---
 {% include navigation.html %}
+<div class="header">
 <h2>
   {{ page.rdf | rdf_property: "schema:name" }} {{ page.rdf | rdf_property: "schema:educationalAlignment" | rdf_property: "schema:targetName"}}
 </h2>
+</div>
+
+<div class="row">
+<div class="main">
 <table>
 	<tr><td>Zugehörig zu Fakultät</td><td>{{ page.rdf | rdf_property: "schema:provider" | rdf_property: "schema:name"}}</td></tr>
 	<tr><td>Studierende gesamt</td><td>{{ page.rdf | rdf_property: "akwi:totalEnrollments" }}</td></tr>
 	<tr><td>Neueingeschriebene Studierende</td><td>{{ page.rdf | rdf_property: "akwi:newEnrollments" }}</td></tr>   
 </table>  
+</div>
+</div>
 
+{% include footer.html %}

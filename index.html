@@ -1,8 +1,16 @@
 ---
 layout: "default"
 ---
-<h1>AKWI</h1>
+<div class="header">  
+<h1>AKWI Mitglieder</h1>
+</div>
+
+<div class="row">
+<div class="side">
 <h2>Hochschulen</h2>
+</div>
+
+<div class="main">
 <ul>
   {% capture collegeOrUniversities_query %}
     SELECT
@@ -19,3 +27,7 @@ layout: "default"
     </li>
   {% endfor %}
 </ul>
+</div>
+</div>
+
+{% include footer.html %}

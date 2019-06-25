@@ -2,10 +2,17 @@
 layout: "default"
 ---
 {% include navigation.html %}
+<div class="header">
 <h2>{{ page.rdf | rdf_property: "schema:honorificPrefix" }} {{ page.rdf | rdf_property: "schema:familyName" }}</h2>
+</div>
+
+<div class="row">
+<div class="main">
 <table>
 	<tr><td>Vorname</td><td>{{ page.rdf | rdf_property: "schema:givenName" }}</td></tr>
 	<tr><td>Tel.</td><td>{{ page.rdf | rdf_property: "schema:telephone" }}</td></tr>
 	<tr><td>E-Mail</td><td>{{ page.rdf | rdf_property: "schema:eMail" }}</td></tr>   
 </table>  
-
+</div>
+</div>
+{% include footer.html %}

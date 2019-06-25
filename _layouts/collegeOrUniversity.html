@@ -2,8 +2,12 @@
 layout: "default"
 ---
 {% include navigation.html %}
+<div class="header">
 <h1>{{ page.rdf | rdf_property: "schema:legalName" }}</h1>
-<div class="horizontal_box">
+</div>
+
+<div class="row">
+<div class="side">
 <h2> Studiengänge </h2>
 {% capture courses_query %}
   Select
@@ -26,8 +30,9 @@ layout: "default"
     </li>
   {% endfor %}
   </ul>
-</div>
-<div class="horizontal_box">
+
+
+
 <h2> Professoren </h2>
 {% capture collegeOrUniversities_query %}
   Select
@@ -51,7 +56,8 @@ layout: "default"
   {% endfor %}
   </ul>
 </div>
-<div class="stop_float">
+
+<div class="main">
 <h2>Adresse</h2>
 <table>
   {% assign website = page.rdf | rdf_property: "schema:url" %}
@@ -65,4 +71,8 @@ layout: "default"
   <tr><td>Bundesland</td><td>{{ postalAddress | rdf_property: "schema:addressRegion" }}</td></tr>
   <tr><td>Land</td><td>{{ postalAddress | rdf_property: "schema:addressCountry" }}</td></tr>
 </table>
+
 </div>
+</div>
+
+{% include footer.html %}
